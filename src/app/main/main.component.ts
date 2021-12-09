@@ -65,4 +65,8 @@ export class MainComponent implements OnInit {
     return this.lista.filter(o => o.deleted == true);
   }
   */
+
+  clickPerson(evento) {
+    console.log("Meu evento é: ", evento);
+  }
 }

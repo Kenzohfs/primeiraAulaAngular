@@ -9,7 +9,7 @@ import { Component, Input, OnInit, Output, EventEmitter } from '@angular/core';
 export class ListItemComponent implements OnInit {
   @Input() personItem;
   @Output() onClick = new EventEmitter<any>();
-  //@Output() nome = new EventEmitter<tipo de dado que vamos passar>();
+  //@Output() nome = new EventEmitter<tipo de dado que vamos passar, string, number>();
   
   constructor() { }
 
